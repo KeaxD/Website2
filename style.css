@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  position: sticky;
+  top: 0;
+  height: 4em;
+  background-color: tan;
+  font-size: 1.4em;
+  z-index: 1;
+}
+
+.background-image {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  transform: translateY(-74em);
+}
+
+.background-layer {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  padding-top: 0.5em;
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.main-nav a {
+  padding: 0.5em;
+  padding-right: 4em;
+}
+
+.picture {
+  position: relative;
+  bottom: 90px;
+  float: left;
+  min-width: 28vw;
+}
+
+.Aboutmelayer {
+  background-color: white;
+  height: 200px;
+  margin: 2em;
+}
+
+.flexbox-container {
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  color: rgb(42, 51, 42);
+}
+
+.flexbox-item-2 p {
+  padding-right: 5%;
+  width: 25em;
+  font-size: 1.4em;
+}
+
+.flexbox-item {
+  margin: 20px;
+}
+
+.btn {
+  margin: 3vw;
+  padding: 15px;
+  font-size: 1.3em;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(44, 44, 44);
+}
+
+.btn-about {
+  display: flex;
+  justify-content: center;
+}
+.resumebtn {
+  display: inline-block;
+  padding: 5%;
+  color: rgb(208, 133, 108);
+  background-color: white;
+  border-color: rgb(158, 101, 83);
+  width: 22em;
+}
+
+.resumebtn:hover {
+  background-color: rgb(224, 223, 223);
+  cursor: pointer;
+}
+
+.btn-about a {
+  text-decoration: none;
+  padding-bottom: 7%;
+  padding-top: 3%;
+}
+
+.flexbox-container2 {
+  background-color: beige;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.Interests {
+  font-size: 3em;
+  font-weight: bold;
+  width: 30vw;
+  top: 30px;
+  color: rgb(87, 117, 87);
+}
+
+.flexbox-container2 p {
+  color: rgb(26, 78, 49);
+}
+
+.Name {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 120px;
+  color: rgb(60, 170, 133);
+  z-index: 1;
+}
+
+.Name h1 {
+  font-size: 3em;
+}
+
+.video-layer {
+  height: 11em;
+}
+
+.BackgroundVideo {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+}
+
+.flexbox-container-contact {
+  display: flex;
+}
+
+.Contact-info {
+  display: flex;
+  padding-left: 10vw;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.2em;
+  color: aquamarine;
+}
+
+.About-main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.About-main-content h2 {
+  font-size: 3em;
+  font-weight: bold;
+  padding-left: 20%;
+}
+
+.About-main-content p {
+  font-size: 1.3em;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.Education-info {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Education-header {
+  padding-top: 3%;
+  font-size: 3em;
+}
+
+.BrighamYoung-element {
+  font-size: 1.3em;
+}
+
+.Honors-element {
+  font-size: 1.3em;
+  padding-bottom: 5%;
+}
+
+.footer {
+  background-color: rgb(76, 79, 64);
+  color: aquamarine;
+}
+
+.footer h1 {
+  font-weight: bold;
+  font-size: 3.5em;
+  padding-left: 10vw;
+}
