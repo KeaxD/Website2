@@ -2,7 +2,8 @@
   "data": [
     {
       "paragraph": "My first project was to build my own website. I first started by sketching plans and images as to how I wanted it to look like. It allowed me to learn how to build the skeleton of a website with HTML, style and design it with CSS and also adding some dynamism with Javascript and JSON file interaction.",
-      "githublink": "https://github.com/KeaxD/Website2"
+      "githublink": "https://github.com/KeaxD/Website2",
+      "imageUrl": "/Images/Capture.PNG"
     }
   ]
 }
